@@ -19,23 +19,23 @@ module.exports = {
   projectName: 'site', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: 'Economy Tool',
       logo: {
-        alt: 'My Facebook Project Logo',
+        alt: 'Economy Tool Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Features',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Changelog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
           href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Discord',
           position: 'right',
         },
       ],
@@ -122,6 +122,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Changelog',
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
