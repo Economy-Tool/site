@@ -4,9 +4,16 @@
         <title>Economy Tool Blog</title>
         <link>https://economy-tool.github.io/blog</link>
         <description>Economy Tool Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Jan 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Version 2.0.0]]></title>
+            <link>https://economy-tool.github.io/site/blog/v2.0.2</link>
+            <guid>v2.0.2</guid>
+            <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[new features!]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://economy-tool.github.io/site/blog/welcome</link>

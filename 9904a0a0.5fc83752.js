@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{88:function(o){o.exports=JSON.parse('{"allTagsPath":"/site/blog/tags","slug":"economy-tool","name":"economy-tool","count":1,"permalink":"/site/blog/tags/economy-tool"}')}}]);
