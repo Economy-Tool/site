@@ -1,10 +1,10 @@
 ---
-id: new-version
-title: New Version
-slug: /new-version
+id: roadmap
+title: roadmap
+slug: /roadmap
 ---
 
-## Game Economy Impact
+## roadmap
 
 To serve as an example page when styling markdown based Docusaurus sites.
 

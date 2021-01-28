@@ -57,7 +57,7 @@ module.exports = {
             },
             {
               label: 'Dashboard',
-              to: 'docs/dashboard',
+              to: 'docs/dashboard/economy-overview/',
             },
           ],
         },
@@ -84,7 +84,7 @@ module.exports = {
           items: [
             {
               label: 'Roadmap',
-              to: 'docs/roadmap/new-version',
+              to: 'docs/roadmap',
             },
             {
               label: 'GitHub',
