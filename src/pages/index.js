@@ -78,7 +78,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <a
-              href="https://www.overwolf.com/app/Alberico_Dias_Barreto_Filho-Economy_Tool"
+              href="https://download.overwolf.com/install/Download?Name=Economy+Tool&ExtensionId=bpbdciihabfhpbemdkecilbakkallomibgnjhkmm&Channel=ownWebSite"
               target="__blank">
               <img
                 className={styles.getTheInGameApp}

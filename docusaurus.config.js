@@ -32,10 +32,11 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Changelog', position: 'left'},
-        // Please keep GitHub link to the right for consistency.
+        // Please keep Appstore link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'Discord',
+          href:
+            'https://www.overwolf.com/app/Alberico_Dias_Barreto_Filho-Economy_Tool',
+          label: 'Appstore',
           position: 'right',
         },
       ],
@@ -47,11 +48,15 @@ module.exports = {
           title: 'Learn',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Game Economy Impact',
+              to: 'docs/doc2',
+            },
+            {
+              label: 'In Game Overlay',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'Dashboard',
               to: 'docs/doc2',
             },
           ],
@@ -60,16 +65,17 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Overwolf Appstore',
+              href:
+                'https://www.overwolf.com/app/Alberico_Dias_Barreto_Filho-Economy_Tool',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/economy-tool',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/VEY8mwM',
             },
           ],
         },
@@ -77,12 +83,16 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Roadmap',
+              to: 'blog',
+            },
+            {
+              label: 'Features',
               to: 'blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/albericod',
             },
           ],
         },
@@ -92,22 +102,17 @@ module.exports = {
           items: [
             {
               label: 'Privacy',
-              href: 'https://opensource.facebook.com/legal/privacy/',
+              to: 'docs/legal/privacy',
             },
             {
               label: 'Terms',
-              href: 'https://opensource.facebook.com/legal/terms/',
+              to: 'docs/legal/terms',
             },
           ],
         },
       ],
-      logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
-      },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Economy Tool. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -116,16 +121,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           blogSidebarTitle: 'Changelog',
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
