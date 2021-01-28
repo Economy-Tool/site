@@ -26,7 +26,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/dashboard/economy-overview/',
           activeBasePath: 'docs',
           label: 'Features',
           position: 'left',
@@ -49,15 +49,15 @@ module.exports = {
           items: [
             {
               label: 'Game Economy Impact',
-              to: 'docs/doc2',
+              to: 'docs/game-economy-impact',
             },
             {
               label: 'In Game Overlay',
-              to: 'docs/',
+              to: 'docs/in-game-overlay',
             },
             {
               label: 'Dashboard',
-              to: 'docs/doc3',
+              to: 'docs/dashboard',
             },
           ],
         },
@@ -84,11 +84,7 @@ module.exports = {
           items: [
             {
               label: 'Roadmap',
-              to: 'docs/roadmap',
-            },
-            {
-              label: 'Features',
-              to: 'docs/features',
+              to: 'docs/roadmap/new-version',
             },
             {
               label: 'GitHub',

@@ -1,12 +1,10 @@
 ---
-id: doc2
-title: In Game Overlay
-slug: /overlay
+id: overview
+title: Overview
+slug: /overview
 ---
 
-In Game Overlay Features ...
-
-## Economy Overview
+## Overview
 
 To serve as an example page when styling markdown based Docusaurus sites.
 

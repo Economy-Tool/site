@@ -8,9 +8,12 @@
  */
 
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-    'Supported Games': ['supported-game-doc1'],
+  firstSideBar: {
+    Dashboard: [
+      'features/dashboard/economy-overview',
+      'features/dashboard/matches-overview',
+    ],
+    'In Game Overlay': ['features/in-game-overlay'],
   },
+  'Supported Games': ['supported-games/counter-strike'],
 };
