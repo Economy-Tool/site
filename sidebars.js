@@ -11,5 +11,6 @@ module.exports = {
   someSidebar: {
     Docusaurus: ['doc1', 'doc2', 'doc3'],
     Features: ['mdx'],
+    'Supported Games': ['supported-game-doc1'],
   },
 };

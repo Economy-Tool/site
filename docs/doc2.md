@@ -1,6 +1,23 @@
 ---
 id: doc2
-title: Document Number 2
+title: In Game Overlay
+slug: /overlay
 ---
 
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+In Game Overlay Features ...
+
+## Economy Overview
+
+To serve as an example page when styling markdown based Docusaurus sites.
+
+## Money
+
+### Highest Money
+
+### Lowest Money
+
+### Current Money
+
+## Graph
+
+---
