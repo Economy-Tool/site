@@ -4,15 +4,36 @@
         <title>Economy Tool Blog</title>
         <link>https://economy-tool.github.io/blog</link>
         <description>Economy Tool Blog</description>
-        <lastBuildDate>Wed, 27 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Dec 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Version 2.0.0]]></title>
-            <link>https://economy-tool.github.io/site/blog/v2.0.2</link>
-            <guid>v2.0.2</guid>
-            <pubDate>Wed, 27 Jan 2021 00:00:00 GMT</pubDate>
+            <title><![CDATA[Version 2.0.2]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/2.0.2</link>
+            <guid>changelog/version/2.0.2</guid>
+            <pubDate>Wed, 23 Dec 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[new features!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 2.0.1]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/2.0.1</link>
+            <guid>changelog/version/2.0.1</guid>
+            <pubDate>Wed, 25 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[new features!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 2.0.0]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/2.0.0</link>
+            <guid>changelog/version/2.0.0</guid>
+            <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[new features!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.0]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/1.0.0</link>
+            <guid>changelog/version/1.0.0</guid>
+            <pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[Unreleased]]]></description>
         </item>
     </channel>
 </rss>

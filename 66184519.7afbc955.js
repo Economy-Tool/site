@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{79:function(e){e.exports=JSON.parse('{"title":"Changelog","items":[{"title":"Version 2.0.0","permalink":"/site/blog/v2.0.2"}]}')}}]);
