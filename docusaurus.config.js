@@ -9,7 +9,7 @@
 
 module.exports = {
   title: 'Economy Tool',
-  tagline: 'The tagline of my site',
+  tagline: 'Control your money like a professional player',
   url: 'https://economy-tool.github.io',
   baseUrl: '/site/',
   onBrokenLinks: 'throw',
