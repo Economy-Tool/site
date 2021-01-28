@@ -57,7 +57,7 @@ module.exports = {
             },
             {
               label: 'Dashboard',
-              to: 'docs/doc2',
+              to: 'docs/doc3',
             },
           ],
         },
@@ -84,11 +84,11 @@ module.exports = {
           items: [
             {
               label: 'Roadmap',
-              to: 'blog',
+              to: 'docs/roadmap',
             },
             {
               label: 'Features',
-              to: 'blog',
+              to: 'docs/features',
             },
             {
               label: 'GitHub',
