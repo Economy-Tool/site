@@ -20,6 +20,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Economy Tool',
+      hideOnScroll: true,
       logo: {
         alt: 'Economy Tool Logo',
         src: 'img/Economy-Logo.png',
@@ -42,6 +43,12 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'Economy Logo',
+        src: 'img/economy-logo-footer.png',
+        href:
+          'https://www.overwolf.com/app/Alberico_Dias_Barreto_Filho-Economy_Tool',
+      },
       links: [
         {
           title: 'Learn',
@@ -112,6 +119,13 @@ module.exports = {
       ],
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright © ${new Date().getFullYear()} Economy Tool. Built with Docusaurus.`,
+    },
+    announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content:
+        'CS:GO - Trusted Mode <a target="_blank" rel="noopener noreferrer" href="https://blog.counter-strike.net/index.php/2020/07/30736/">Learn more.</a>',
+      backgroundColor: '#f3f3f3', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
     },
   },
   presets: [

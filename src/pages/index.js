@@ -11,6 +11,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useThemeContext from '@theme/hooks/useThemeContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
@@ -63,10 +64,30 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+function GetItOnOW() {
+  const {isDarkTheme} = useThemeContext();
+  const getTheInGameApp = isDarkTheme
+    ? 'img/GetItOnOW-Dark.png'
+    : 'img/GetItOnOW-Light.png';
+
+  return (
+    <div className={styles.buttons}>
+      <a
+        href="https://download.overwolf.com/install/Download?Name=Economy+Tool&ExtensionId=bpbdciihabfhpbemdkecilbakkallomibgnjhkmm&Channel=ownWebSite"
+        target="__blank">
+        <img
+          className={styles.getTheInGameApp}
+          src={getTheInGameApp}
+          alt="get the in game app"
+        />
+      </a>
+    </div>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  const getTheInGameApp = 'img/GetItOnOW-Dark.png';
 
   return (
     <Layout
@@ -76,17 +97,7 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <a
-              href="https://download.overwolf.com/install/Download?Name=Economy+Tool&ExtensionId=bpbdciihabfhpbemdkecilbakkallomibgnjhkmm&Channel=ownWebSite"
-              target="__blank">
-              <img
-                className={styles.getTheInGameApp}
-                src={getTheInGameApp}
-                alt="get the in game app"
-              />
-            </a>
-          </div>
+          <GetItOnOW />
         </div>
       </header>
       <main>
