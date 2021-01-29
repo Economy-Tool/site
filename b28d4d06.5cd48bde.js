@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{93:function(o){o.exports=JSON.parse('{"allTagsPath":"/site/blog/tags","slug":"overwolf","name":"overwolf","count":4,"permalink":"/site/blog/tags/overwolf"}')}}]);

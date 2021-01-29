@@ -25,14 +25,42 @@
             <title><![CDATA[Version 2.0.0]]></title>
             <link>https://economy-tool.github.io/site/blog/changelog/version/2.0.0</link>
             <guid>changelog/version/2.0.0</guid>
-            <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[new features!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.1.0]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/1.1.0</link>
+            <guid>changelog/version/1.1.0</guid>
+            <pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[Released]]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.3]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/1.0.3</link>
+            <guid>changelog/version/1.0.3</guid>
+            <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[Unreleased]]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.2]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/1.0.2</link>
+            <guid>changelog/version/1.0.2</guid>
+            <pubDate>Tue, 18 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[Unreleased]]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Version 1.0.1]]></title>
+            <link>https://economy-tool.github.io/site/blog/changelog/version/1.0.1</link>
+            <guid>changelog/version/1.0.1</guid>
+            <pubDate>Thu, 13 Feb 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[[Unreleased]]]></description>
         </item>
         <item>
             <title><![CDATA[Version 1.0.0]]></title>
             <link>https://economy-tool.github.io/site/blog/changelog/version/1.0.0</link>
             <guid>changelog/version/1.0.0</guid>
-            <pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 10 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[[Unreleased]]]></description>
         </item>
     </channel>
