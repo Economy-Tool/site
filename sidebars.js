@@ -9,11 +9,14 @@
 
 module.exports = {
   firstSideBar: {
+    'In Game Overlay': [
+      'features/in-game-overlay/economy-tab',
+      'features/in-game-overlay/options',
+    ],
     Dashboard: [
       'features/dashboard/economy-overview',
       'features/dashboard/matches-overview',
     ],
-    'In Game Overlay': ['features/in-game-overlay'],
   },
   'Supported Games': ['supported-games/counter-strike'],
 };

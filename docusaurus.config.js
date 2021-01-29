@@ -59,7 +59,7 @@ module.exports = {
             },
             {
               label: 'In Game Overlay',
-              to: 'docs/in-game-overlay',
+              to: 'docs/in-game-overlay/economy-tab',
             },
             {
               label: 'Dashboard',
@@ -97,8 +97,8 @@ module.exports = {
               href: 'https://www.twitch.tv/ext/hecb122wgtrzumrv9ywwjn7wg6nglq',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/albericod',
+              label: 'Product Owner',
+              href: 'https://www.linkedin.com/in/albericod/',
             },
           ],
         },
@@ -138,6 +138,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           blogSidebarTitle: 'Changelog',
+          blogTitle: 'Changelog!',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
