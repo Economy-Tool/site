@@ -22,7 +22,7 @@ module.exports = {
       title: 'Economy Tool',
       logo: {
         alt: 'Economy Tool Logo',
-        src: 'img/logo.svg',
+        src: 'img/Economy-Logo.png',
       },
       items: [
         {
@@ -34,9 +34,8 @@ module.exports = {
         {to: 'blog', label: 'Changelog', position: 'left'},
         // Please keep Appstore link to the right for consistency.
         {
-          href:
-            'https://www.overwolf.com/app/Alberico_Dias_Barreto_Filho-Economy_Tool',
-          label: 'Appstore',
+          href: 'https://discord.com/invite/VEY8mwM',
+          label: 'Discord',
           position: 'right',
         },
       ],
@@ -85,6 +84,10 @@ module.exports = {
             {
               label: 'Roadmap',
               to: 'docs/roadmap',
+            },
+            {
+              label: 'Twitch Extension',
+              href: 'https://www.twitch.tv/ext/hecb122wgtrzumrv9ywwjn7wg6nglq',
             },
             {
               label: 'GitHub',
