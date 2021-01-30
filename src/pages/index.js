@@ -92,7 +92,7 @@ function Home() {
   return (
     <Layout
       title={`Overwolf ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="📈 Control your money like a professional player. | Download From Overwolf.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
