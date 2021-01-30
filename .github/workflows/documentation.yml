@@ -11,12 +11,12 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      env:
-        GTAG: ${{ secrets.GTAG_CODE }}
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
+        env:
+          GTAG: ${{ secrets.GTAG_CODE }}
       - name: Test Build
         run: |
           if [ -e yarn.lock ]; then
