@@ -10,6 +10,8 @@ jobs:
   checks:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    env:
+      GTAG: ${{ secrets.GTAG }}
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -24,8 +26,7 @@ jobs:
           else
           npm i
           fi
-          echo "${{ secrets.GH_PAGES_DEPLOY }}"
-          GTAG="${{ secrets.GH_PAGES_DEPLOY }}" npm run build
+          "$GTAG" npm run build
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
