@@ -19,6 +19,11 @@ module.exports = {
   projectName: 'site', // Usually your repo name.
   themeConfig: {
     image: 'img/meta-img.jpg',
+    gtag: {
+      trackingID: 'G-4Z5W1YGNM5',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
     navbar: {
       title: 'Economy Tool',
       hideOnScroll: true,
