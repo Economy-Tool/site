@@ -7,8 +7,6 @@
  * @format
  */
 
-console.log('GTAG CODE => ', process.env.GTAG_CODE);
-
 module.exports = {
   title: 'Economy Tool',
   tagline: 'Control your money like a professional player',

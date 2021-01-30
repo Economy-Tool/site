@@ -91,7 +91,7 @@ function Home() {
 
   return (
     <Layout
-      title={`Overwolf ${siteConfig.title}`}
+      title={`Overwolf App ${siteConfig.title}`}
       description="📈 Control your money like a professional player. | Download From Overwolf.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
