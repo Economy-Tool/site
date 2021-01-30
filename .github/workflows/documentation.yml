@@ -26,7 +26,8 @@ jobs:
           else
           npm i
           fi
-          GTAG_CODE="$GTAG" npm run build
+          echo "$GTAG" 
+          npm run build
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest

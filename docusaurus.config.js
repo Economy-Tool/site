@@ -22,7 +22,7 @@ module.exports = {
   themeConfig: {
     image: 'img/meta-img.jpg',
     gtag: {
-      trackingID: process.env.GTAG_CODE,
+      trackingID: 'G-4Z5W1YGNM5',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
