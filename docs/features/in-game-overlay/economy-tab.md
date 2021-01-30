@@ -8,13 +8,13 @@ The Economy Tab is displayed within the game when a hotkey is pressed.
 
 > the default hotkey is **TAB**, this key can be changed in options.
 
-### Highest Money
+### Prediction Highest Money
 
-The highest money is represented by the green color, both in graphical and numerical value.
+The prediction highest money is represented by the green color, both in graphical and numerical value.
 
-### Lowest Money
+### Prediction Lowest Money
 
-The lowest money is represented by the red color, both in graphical and numerical value.
+The prediction lowest money is represented by the red color, both in graphical and numerical value.
 
 ### Current Money
 
