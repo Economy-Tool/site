@@ -10,9 +10,9 @@ jobs:
   checks:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    env:
-      GTAG: ${{ secrets.GTAG_CODE }}
     steps:
+      env:
+        GTAG: ${{ secrets.GTAG_CODE }}
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
