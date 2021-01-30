@@ -18,7 +18,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_Setup.svg',
     description: (
       <>
         Economy Tool was designed from the ground up to be easily installed and
@@ -32,7 +32,7 @@ const features = [
     description: (
       <>
         Economy Tool lets you focus on your matches, and we&apos;ll do the
-        chores. Go ahead and see your data in the Economy Tool dashboard.
+        chores. Go ahead and see your data in the Economy Tool.
       </>
     ),
   },
