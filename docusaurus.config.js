@@ -7,6 +7,8 @@
  * @format
  */
 
+console.log('GTAG CODE => ', process.env.GTAG_CODE);
+
 module.exports = {
   title: 'Economy Tool',
   tagline: 'Control your money like a professional player',
@@ -20,7 +22,7 @@ module.exports = {
   themeConfig: {
     image: 'img/meta-img.jpg',
     gtag: {
-      trackingID: 'G-4Z5W1YGNM5',
+      trackingID: process.env.GTAG_CODE,
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
