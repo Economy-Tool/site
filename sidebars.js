@@ -17,6 +17,6 @@ module.exports = {
       'features/dashboard/economy-overview',
       'features/dashboard/matches-overview',
     ],
+    'Supported Games': ['features/supported-games/counter-strike'],
   },
-  'Supported Games': ['supported-games/counter-strike'],
 };

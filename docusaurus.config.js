@@ -27,7 +27,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/dashboard/economy-overview/',
+          to: 'docs/in-game-overlay/economy-tab',
           activeBasePath: 'docs',
           label: 'Features',
           position: 'left',
