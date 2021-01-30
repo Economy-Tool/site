@@ -18,6 +18,7 @@ module.exports = {
   organizationName: 'Economy-Tool', // Usually your GitHub org/user name.
   projectName: 'site', // Usually your repo name.
   themeConfig: {
+    image: 'img/meta-img.jpg',
     navbar: {
       title: 'Economy Tool',
       hideOnScroll: true,
